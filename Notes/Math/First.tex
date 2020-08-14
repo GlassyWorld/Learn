@@ -1,0 +1,95 @@
+\documentclass[cn,normal,11pt,black]{elegantnote}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}            %调用公式宏包
+\usepackage{multirow}
+\usepackage{lscape}
+\usepackage{amsthm}
+
+
+
+\title{高等数学预备知识}
+\author{史学睿}
+\date{\today}
+
+
+\begin{document}
+    \maketitle
+
+    \section{函数的概念与特性}
+    \subsection{函数}
+    \subsection{反函数}
+            
+    设函数 $y=f(x)$ 的定义域为D，值域为R，如果对于每一个 $y \epsilon R$ ，必存在 $x \epsilon D$ ，使得
+$y=f(x)$ 成立，则由此定义了一个新的函数 $x= \phi(y)$ .这个函数就成为函数 $y=f(x)$ 的\textbf{反函数}，
+ $x= f^{-1}(y)$ ，它的定义域为R，值域为D，相对于反函数来说，原来的函数也称为\textbf{直接函数}，
+以下两点需要说明：
+
+第一，严格单调函数必有反函数，比如函数$y=x^2 (x \ \epsilon \ [0,+ \infty) )$是严格单调函数，
+故它有反函数$x= \sqrt{y}$.
+
+\underline{\textbf{有反函数的必定严格单调是不对的，要根据单调定义域判断}}
+
+第二，若把 $x= f^{-1}(y)$ 与 $y=f(x)$ 的图形画在同一坐标系中，则它们完全重合.只有把 $y=f(x)$ 的反函数$x= f^{-1}(y)$
+写成$y=f^{-1}(x)$之后，它们的图形才关于$y=x$对称，\underline{事实上这也是字母 $x$ 与 $y$ 互换的结果}。
+
+第三，求解反函数的一般步骤为：
+\begin{itemize}
+    \item 求解原函数的单调区间及值域
+    \item 求解 $ x $ ,然后互换 $x$ 和 $y$
+\end{itemize}
+
+    \subsection{复合函数}
+
+    双曲正弦函数 
+
+    \begin{equation}
+        sinhx = \frac{e^x-e^{-x}}{2}
+    \end{equation}
+
+    \clearpage
+
+    反双曲正弦函数 
+
+    \begin{equation}
+        y = ln[x+\sqrt{x^2 + 1}] 
+    \end{equation}
+    两个求导基本公式
+    \begin{align*}
+        \int \frac{1}{\sqrt{x^2 + 1}}dx & = ln[x+ \sqrt{x^2+1}] \\
+        \\
+        (ln[x+\sqrt{x^2+1}])^{'} &= \frac{1}{\sqrt{x^2+1}} \\
+    \end{align*}
+
+    复合函数最重要的就是两个函数定义域与值域的区分，尤其注意:
+    
+    \underline{\textbf{题目给出的函数定义域是否完全是正确的定义域}}
+
+    \subsection{四种特性}
+    \subsubsection{有界性}
+        设$ f(x) $ 的定义域为 $ D  $ ，数集 $ I \Subset D $，如果存在某个正数$ M $ ，使得
+    对任一$ x \in I $ ,有 $ |f(X)| \leq m $ ，则称 $ f(x) $ 在$I$ 上有界；如果这样的$M$ 不存在，
+    则称$f(x)$ 在 $ I $ 上无界。
+        \begin{note}
+            \begin{itemize}
+            \item 有界还是无界的讨论，首先要\textbf{指明区间}，不知区间，无论有界性
+            \item 事实上，只要区间$I$ 上存在点 $x_0$ ，使得函数$\lim\limits_{x \to x_0}f(x)$的值
+            为无穷大，这就叫无界
+            \end{itemize}
+        \end{note}
+    \subsubsection{单调性}
+    设$f(x)$ 是定义在$ [-l,l] $上的任意函数，则 \\
+    $ F_1(x)=f(x)-f(-x) $必为\textbf{奇函数}； $ F_2(x)=f(x)+f(-x) $必为\textbf{偶函数}
+    \begin{itemize}
+        \item 奇函数$y=f(x)$ 的图形关于坐标原点对称，当$f(x)$ 在$x=0$ 处有定义时，必有$f(0)=0$
+        \item 偶函数$y=f(x)$ 的图形源于$y$轴对称，且当$f^{'}(0)$ 存在时必有$f^{'}(0)=0$
+        \item 函数$y=f(x)$ 的图形关于直线$x=T$对称的充分必要条件是
+        $$ f(x)=f(2T-x) \text{或} f(T+x)=f(T-x) $$
+    \end{itemize}
+    \subsubsection{奇偶性}
+    \subsubsection{周期性}
+
+
+    
+
+
+\end{document}
