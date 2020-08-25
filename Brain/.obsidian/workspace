@@ -4,12 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f59bce798a1bc2d6",
+        "id": "465f40081fd2cf0e",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "缉毒犬/训练.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -68,5 +71,11 @@
     "width": 300,
     "collapsed": true
   },
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "缉毒犬/训练.md",
+    "缉毒犬/中国缉毒犬的发展.md",
+    "缉毒犬/发展历史和选育.md",
+    "缉毒犬/缉毒犬的分类和区别，以及特点.md",
+    "缉毒犬/问答.md"
+  ]
 }
