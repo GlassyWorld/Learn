@@ -1,7 +1,0 @@
-[
-{
-  "directory": "F:/Program/Cpp/build",
-  "command": "g++    -g -g -std=gnu++11 -o CMakeFiles/Test.dir/Test.cpp.obj -c F:/Program/Cpp/Test.cpp",
-  "file": "F:/Program/Cpp/Test.cpp"
-}
-]
